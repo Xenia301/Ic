@@ -40,7 +40,7 @@
             // 
             this.authorization.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.authorization.Location = new System.Drawing.Point(225, 207);
-            this.authorization.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.authorization.Margin = new System.Windows.Forms.Padding(2);
             this.authorization.Name = "authorization";
             this.authorization.Size = new System.Drawing.Size(106, 19);
             this.authorization.TabIndex = 0;
@@ -53,7 +53,7 @@
             // 
             this.exit_program.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.exit_program.Location = new System.Drawing.Point(225, 230);
-            this.exit_program.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.exit_program.Margin = new System.Windows.Forms.Padding(2);
             this.exit_program.Name = "exit_program";
             this.exit_program.Size = new System.Drawing.Size(106, 19);
             this.exit_program.TabIndex = 1;
@@ -69,7 +69,6 @@
             this.txt_Login.Name = "txt_Login";
             this.txt_Login.Size = new System.Drawing.Size(106, 20);
             this.txt_Login.TabIndex = 2;
-            this.txt_Login.Text = "Введите пароль";
             // 
             // txt_Password
             // 
@@ -79,7 +78,6 @@
             this.txt_Password.Name = "txt_Password";
             this.txt_Password.Size = new System.Drawing.Size(106, 20);
             this.txt_Password.TabIndex = 3;
-            this.txt_Password.Text = "Введите пароль";
             // 
             // label1
             // 
@@ -116,7 +114,7 @@
             this.Controls.Add(this.txt_Login);
             this.Controls.Add(this.exit_program);
             this.Controls.Add(this.authorization);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Form1";
             this.Text = "Авторизация в страховой системе";
             this.ResumeLayout(false);
