@@ -23,8 +23,6 @@ namespace Ic
         }
         private void Form2_Load(object sender, EventArgs e)
         {
-            // Деактивируем кнопки и комбобоксы (чтобы "не работали")
-            // Если у вас другие имена контролов — замените их
             try
             {
                 LoadData();
